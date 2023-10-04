@@ -1,2 +1,6 @@
-astro-sdk-python[amazon,databricks,duckdb,google,postgres,snowflake]==1.5.3
+#Add the package name to your Astro project. 
+#If it’s a Python package, add it to requirements.txt. 
+#If it’s an OS-level package, add it to packages.txt. 
+#The latest version of the package that’s publicly available is installed by default.
 
+#numpy==1.23.0

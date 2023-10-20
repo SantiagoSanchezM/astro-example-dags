@@ -57,7 +57,7 @@ default_args={
     schedule=None,
     start_date=pendulum.from_format("2023-10-03", "YYYY-MM-DD"),
     catchup=False,
-    tags=['demo'],
+    tags=['demo_v2'],
     owner_links={
         "Santiago Sánchez": "mailto:santiago.sanchez@astronomer.io",
         "Open in Cloud IDE": "https://cloud.astronomer.io/clnak6dpu023601jnwyrvz7gm/cloud-ide/clnapqgkx004901ohfg4rjy4c/clnapqguo005701pt5d4f7ue7",

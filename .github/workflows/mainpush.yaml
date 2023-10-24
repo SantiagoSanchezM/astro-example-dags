@@ -17,4 +17,4 @@ jobs:
     - name: Deploy code to main Deployment
       uses: astronomer/deploy-action@v0.3
       with:
-        deployment-id: ${{vars.DEPLOYMENT_ID}}
+        deployment-id: ${{vars.PRODUCTION}}

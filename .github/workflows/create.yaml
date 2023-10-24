@@ -12,7 +12,6 @@ env:
 
 jobs:
   deploy:
-    environment: workspace
     runs-on: ubuntu-latest
     steps:
     - name: Create preview Deployment

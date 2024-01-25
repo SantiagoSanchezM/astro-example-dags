@@ -1,1 +1,6 @@
-# Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
+#Add the package name to your Astro project. 
+#If it’s a Python package, add it to requirements.txt. 
+#If it’s an OS-level package, add it to packages.txt. 
+#The latest version of the package that’s publicly available is installed by default.
+
+apache-airflow-providers-microsoft-azure==8.5.1

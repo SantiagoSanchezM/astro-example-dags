@@ -1,11 +1,9 @@
 import json
 from pendulum import datetime
-
 from airflow.decorators import (
     dag,
     task,
 )  # DAG and task decorators for interfacing with the TaskFlow API
-
 
 # When using the DAG decorator, The "dag_id" value defaults to the name of the function
 # it is decorating if not explicitly set. In this example, the "dag_id" value would be "example_dag_basic".
@@ -23,7 +21,7 @@ from airflow.decorators import (
     default_args={
         "retries": 2,  # If a task fails, it will retry 2 times.
     },
-    tags=["example"],
+    tags=["basic"],
 )  # If set, this tag is shown in the DAG view of the Airflow UI
 def example_dag_basic():
     """

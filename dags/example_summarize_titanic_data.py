@@ -48,7 +48,7 @@ def aggregate_python_func(over_18: pd.DataFrame):
     return over_18.groupby(['alive', 'class']).agg({'age': ['mean', 'count']}).reset_index()
 
 default_args={
-    "owner": "Santiago Sánchez,Open in Cloud IDE",
+    "owner": "Justine",
 }
 
 @dag(

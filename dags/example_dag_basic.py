@@ -21,7 +21,7 @@ from airflow.decorators import (
     default_args={
         "retries": 2,  # If a task fails, it will retry 2 times.
     },
-    tags=["basic"],
+    tags=["basic", "attackOnTitan"],
 )  # If set, this tag is shown in the DAG view of the Airflow UI
 def example_dag_basic():
     """

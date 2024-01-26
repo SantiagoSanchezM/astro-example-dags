@@ -13,7 +13,7 @@ def receive_and_log_messages():
             queue_name='demo-fe',
             max_message_count=1,
         )
-        return logging.error(type(receive_message)) #receive_message.execute(context={})
+        return receive_message.execute(context={})
     except AirflowException as e:
         logging.error(f"Failed to receive messages: {e}")
         return None

@@ -2,7 +2,7 @@ from airflow.decorators import task, dag
 from airflow.models     import Variable 
 from datetime           import datetime
 
-@dag(dag_id            = 'simple_variable_call',
+@dag(dag_id            = 'example_simple_variable_call',
      schedule_interval = '@once',
      description       = 'writes_variable_to_XCOM',
      catchup           = False,

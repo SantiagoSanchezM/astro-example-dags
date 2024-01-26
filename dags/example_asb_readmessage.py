@@ -19,7 +19,7 @@ def receive_and_log_messages():
         return None
 
 with DAG(
-    'azure_service_bus_example',
+    'example_azure_service_bus',
     start_date=datetime(2024, 1, 1),
     schedule_interval='@daily',
 ) as dag:

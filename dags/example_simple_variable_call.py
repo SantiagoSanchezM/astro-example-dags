@@ -14,10 +14,10 @@ def dig_labs():
     from textwrap import dedent
 
     def fetch_data_from_api():
-        return Variable.get("DIG_LABS_HOSTNAME")
+        return Variable.get("FE-SECRET")
 
     def fetch_data_from_api_encrypted():
-        return Variable.get("DIG_LABS_ADMIN_TOKEN_ID")
+        return Variable.get("FE-SECRET-ENCRYPTED")
     
     @task()
     def extract_data():
